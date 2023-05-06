@@ -30,6 +30,7 @@ class ListsController < ApplicationController
     redirect_to list_path(list.id)
   end
   
+ 
   private
   # ストロングパラメータ
   def list_params
