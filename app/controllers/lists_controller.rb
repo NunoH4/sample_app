@@ -42,8 +42,9 @@ class ListsController < ApplicationController
       redirect_to list_path(@list.id)
     else
       render :new
-    end
+    end  
   end
+  
  
   private
   def list_params
